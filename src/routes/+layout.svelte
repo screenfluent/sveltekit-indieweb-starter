@@ -21,10 +21,12 @@
 	<meta name="googlebot" content="index,follow" />
 </svelte:head>
 
-<div class="text-black bg-white dark:text-white dark:bg-black antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-	<main class="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+<div class="light-mode dark:dark-mode min-h-screen">
+	<div class="container-prose">
 		<Nav />
-		{@render children()}
+		<main class="py-8">
+			{@render children()}
+		</main>
 		<Footer />
-	</main>
+	</div>
 </div>

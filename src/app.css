@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 
+/* Base styles */
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -33,12 +34,17 @@ html {
   min-width: 360px;
 }
 
+/* Typography customization */
+.prose {
+  max-width: 65ch;
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
 .prose .anchor {
   @apply absolute invisible no-underline;
   margin-left: -1em;
   padding-right: 0.5em;
-  width: 80%;
-  max-width: 700px;
   cursor: pointer;
 }
 
@@ -52,4 +58,54 @@ html {
 
 .prose a:hover {
   @apply decoration-neutral-600 dark:decoration-neutral-400;
+}
+
+/* Code blocks */
+pre {
+  @apply p-4 rounded-lg overflow-x-auto bg-neutral-100 dark:bg-neutral-900;
+  font-size: 0.875em;
+}
+
+code {
+  @apply text-sm;
+}
+
+/* Layout utilities */
+.container-prose {
+  @apply max-w-2xl mx-auto px-4;
+}
+
+/* Dark mode utilities */
+.dark-mode {
+  @apply text-white bg-black;
+}
+
+.light-mode {
+  @apply text-black bg-white;
+}
+
+/* IndieWeb classes */
+.h-card {
+  @apply flex items-center space-x-2;
+}
+
+.u-photo {
+  @apply w-10 h-10 rounded-full;
+}
+
+.p-name {
+  @apply font-medium;
+}
+
+/* Custom components */
+.nav-link {
+  @apply transition-colors hover:text-neutral-800 dark:hover:text-neutral-200;
+}
+
+.nav-link-active {
+  @apply font-semibold;
+}
+
+.footer-link {
+  @apply text-sm text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors;
 }
