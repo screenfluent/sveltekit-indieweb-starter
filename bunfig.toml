@@ -1,0 +1,18 @@
+# Runtime configurations
+[install]
+# Migrate engine-strict from .npmrc
+strict = true
+
+# Package manager configurations
+auto = true              # automatically install dependencies when they're missing
+production = false       # include devDependencies by default
+frozen = false          # allow updating lockfile
+
+# Test configurations
+[test]
+# Configure test runner behavior
+coverage = false        # disable coverage by default for faster runs
+
+# Run configurations
+[run]
+bun = true             # automatically use bun instead of node when possible
