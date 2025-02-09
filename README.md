@@ -1,8 +1,10 @@
-# SvelteKit Portfolio Blog Starter
+# SvelteKit IndieWeb Starter
 
 > **Note**: This is a work-in-progress SvelteKit port of the [Next.js blog example](https://github.com/vercel/examples/tree/main/solutions/blog) from Vercel's examples repository.
 
-This is a portfolio site template complete with a blog. Built with:
+This is a portfolio site template that embraces IndieWeb principles. IndieWeb is a people-focused alternative to the "corporate web", promoting the creation and ownership of your online presence. It emphasizes publishing content on your own domain and maintaining control over your data while still participating in the wider social web through standards like Webmentions, Microformats, and IndieAuth.
+
+Built with:
 
 - Svelte 5 / SvelteKit 2
 - Bun 1.2
