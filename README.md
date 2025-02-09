@@ -1,5 +1,7 @@
 # SvelteKit Portfolio Blog Starter
 
+> **Note**: This is a work-in-progress SvelteKit port of the [Next.js blog example](https://github.com/vercel/examples/tree/main/solutions/blog) from Vercel's examples repository.
+
 This is a portfolio site template complete with a blog. Built with:
 
 - Svelte 5 / SvelteKit 2
@@ -15,7 +17,7 @@ This is a portfolio site template complete with a blog. Built with:
 
 ## Demo
 
-https://portfolio-blog-starter.vercel.app
+[soon]
 
 ## How to Use
 
@@ -23,9 +25,7 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+[soon]
 
 ### Clone and Deploy
 
@@ -43,4 +43,4 @@ Then, run SvelteKit in development mode:
 bun dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates).
+Deploy it to the cloud with Vercel, Netlify, Cloudflare, etc.
